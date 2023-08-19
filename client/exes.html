@@ -1,0 +1,19 @@
+<script>
+
+    let numeros = [3,2,11,20,8,7];
+    // let novosNumeros = [];
+
+    // numeros.forEach(numero => {
+    //     if (numero % 2) {
+    //         novosNumeros.push(numero * 2);
+    //     } else {
+    //         novosNumeros.push(numero);
+    //     }
+    // });
+
+    let novosNumeros = numeros.map(numero => numero % 2 ? numero * 2 : numero);
+
+    console.log(numeros);
+    console.log(novosNumeros);
+
+</script>
